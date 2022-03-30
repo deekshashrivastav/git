@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+ul{
+    list-style-type:none;
+    background-color:black;
+    over flow: hidden;
+}
+li{
+    float: left;
+}
+a{
+    text-decoration: none;
+    color:white
+    width: 70px;
+    display: inline-block;
+    padding: 2px;
+    text-align:center;
+}
+.dropdown-menu{
+    display: absolute;
+    background-color: black;
+}
+.dropdown-menu a{
+    display:block;
+}
+.dropdown:hover{
+    background-color: orange;
+    color:white;
+}
